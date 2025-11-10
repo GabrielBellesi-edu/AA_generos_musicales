@@ -1,6 +1,9 @@
 # Entornos virtuales
-venv/
+venv311/
 .env/
+
+# misnotas
+inicio.txt
 
 # Archivos de Python compilados
 __pycache__/
@@ -8,12 +11,6 @@ __pycache__/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
-
-
-
-
-# Data
-/data/
 
 # Mac OS-specific storage files
 .DS_Store
