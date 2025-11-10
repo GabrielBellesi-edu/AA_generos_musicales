@@ -20,8 +20,8 @@ La solución adoptada consistió en construir un dataset propio, recopilando can
 
 No obstante, debido a que Reccobeats no es un servicio ampliamente utilizado, no todas las canciones disponen de las características acústicas completas necesarias para desarrollar el modelo de aprendizaje automático.
 Por esta razón, el dataset final comprende aproximadamente 700 canciones, distribuidas en 11 géneros musicales.
-
 Cada registro incluye información sobre el artista, nombre de la canción, duración, nivel de energía, bailabilidad, acústica, entre otras variables, así como el género musical asociado, que será la variable objetivo.
+
 ---
 
 ## 2. Contexto y relevancia del problema
@@ -90,28 +90,25 @@ El proyecto permitirá además **reflexionar sobre la importancia de la calidad 
 
 ```
 
-├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
-├── README.md          <- The top-level README for developers using this project.
+├── README.md          <- README
 ├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
+│   ├── interim        <- Dataset intermedios modificados.
+│   ├── processed      <- Dataset final.
+│   └── raw            <- Datasest original.
 │
-├── docs               <- A default mkdocs project; 
+├── docs               <- Entregas 1,2 y 3. Link al video; 
 │
 ├── notebooks          <- Jupyter notebooks. 
 │
-├── pyproject.toml     <- Project configuration file with package metadata for 
-│                         generos_musicales and configuration for tools like black
+├── pyproject.toml     <- Configuracion del proyecto. 
 │
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+├── references         <- Diccionario de datos.
 │
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   ├── models         <- Txt reports from models
-│   └── figures        <- Generated graphics and figures to be used in reporting
+├── reports            
+│   ├── models         <- Reportes de modelos en txt
+│   └── figures        <- Graficos generados e imagenes para ser usados en los reportes.
 │
-└── requirements.txt   <- The requirements file for reproducing the analysis environment
+└── requirements.txt   <- Requerimientos para el correcto funcionamiento.
 
 ```
 
