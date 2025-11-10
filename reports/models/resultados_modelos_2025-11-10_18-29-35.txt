@@ -1,0 +1,16 @@
+COMPARACIÓN DE MODELOS
+============================================================
+
+             Modelo  Accuracy  F1-Score
+                KNN  0.617450  0.583190
+     Decision Tress  0.583893  0.592282
+      Random Forest  0.785235  0.775460
+          SVM (RBF)  0.718121  0.697175
+       SVM (Linear)  0.684564  0.652470
+   SVM (Polynomial)  0.563758  0.486408
+      SVM (Sigmoid)  0.583893  0.571349
+Regresión Logística  0.691275  0.662331
+
+MEJOR MODELO: Random Forest
+Accuracy: 0.7852
+F1-Score: 0.7755
