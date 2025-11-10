@@ -6,8 +6,6 @@
 
 Trabajo para la materia Aprendizaje Automatico. Modelo de prediccion de generos musicales
 
-# Entrega 1: Descripción y Formulación del Objetivo
-
 ## 1. Descripción general del proyecto
 En este proyecto se aplicarán técnicas de **Aprendizaje Supervisado** con el objetivo de desarrollar un modelo capaz de **clasificar el género musical de una canción** a partir de sus características de audio y metadatos obtenidos de **Spotify**.
 
