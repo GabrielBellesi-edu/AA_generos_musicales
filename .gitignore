@@ -1,6 +1,8 @@
 # Entornos virtuales
+venv/
 venv311/
-.env/
+.venv/
+
 
 # misnotas
 inicio.txt
